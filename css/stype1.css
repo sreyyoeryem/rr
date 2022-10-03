@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display:flex ;
+    flex-direction: column;
+    height: 420vh;
+    background: rgb(243, 18, 18);
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+.header{
+    display: flex;
+    background-color: rgba(119, 51, 51, 0.966);
+    position: sticky;
+    top: 0px;
+}
+.logo{
+    display: flex;
+    flex: 0.2;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.header-right ul{
+    gap: 10%;
+    display: flex;
+    
+}
+li:hover{
+    color: rgb(25, 23, 43);
+}
+li:first-child{
+    list-style: none;
+    gap: 10px;
+}
+.header-right {
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+
+}
+.button1 button{
+    width: 100px;
+    padding: 10px;
+    background: orange;
+    border: none;
+    border-radius: 3px;
+}
+.header-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+.main{
+    display: flex;
+}
+.group-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+.main .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.text p{
+    margin-top: 3%;
+}
+.text {
+    display: flex;
+    margin: 5% 0% 3% 5%;
+    flex-direction: column;
+    justify-content: center;
+}
+.main .button{
+    display: flex;
+    margin-top: 3%;
+}
+.main .button i{
+    gap: 5%;
+    background: orange;
+} 
+.cart i{
+    color: orange;
+    
+}
+button{
+    background-color: rgb(152, 218, 45);
+    border: none;
+}
+.contan1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    flex: 0.2;
+
+   
+}
+.group-menu:hover{
+    background: whitesmoke;
+    color: black;
+
+}
+.icon-left:hover{
+    background-color: orange;
+}
+.contan1-bottom{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+.group-menu{
+    cursor: pointer;
+    display: flex;
+    border-radius: 10px;
+    box-shadow:
+       inset 0 -3em 3em rgba(95, 87, 87, 0.1),
+             0 0  0 0.5px rgb(71, 60, 60),
+             0.3em 0.3em 1em rgba(129, 120, 120, 0.3);
+}
+.text-menu{
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+}
+.title-menu{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    display: flex;
+    flex: 2;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.icon-left{
+    box-sizing: border-box;
+    flex: 0.2;
+    padding: 30px;
+    border-radius: 0 10px 10px 0;
+    background-color:rgb(180, 48, 48);
+}
+
+.icon img{
+    width: 30px;
+    height: 30px;
+}
+
+.contan2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0.2;
+    margin-top: 5%;
+}
+.image-two{
+    display: flex;
+    gap: 20px;
+    margin-top: 5%;
+}
+.image1 img, .contan2 img{
+    width: 70%;
+    height: 80%;
+    border: 10px solid rgb(99, 24, 24);
+    box-shadow:
+       inset 0 -3em 3em rgba(95, 87, 87, 0.1),
+             0 0  0 0.5px rgb(71, 60, 60),
+             0.3em 0.3em 1em rgba(129, 120, 120, 0.3);
+}
+.image1 h2, .image2 h2{
+    position: absolute; 
+    margin:8% 15% 15% 1%;
+}
+.image1{
+    flex-direction: column;
+    flex: 1;
+    display: flex;
+    align-items: flex-end; 
+    justify-content: flex-start; 
+}
+.image2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.contan3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0.3;
+    margin-top: 5%;
+
+}
+.container{
+    display: flex;
+    gap: 25px;
+    margin-top: 3%;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+   
+}
+.cart img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 10px;
+
+} 
+.cart{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: brown;
+    width: 19%;
+ 
+    
+    box-shadow:
+       inset 0 -3em 3em rgba(95, 87, 87, 0.1),
+             0 0  0 3px rgb(224, 213, 213),
+             0.3em 0.3em 1em rgba(129, 120, 120, 0.3);
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.orange{
+    display: flex;
+    justify-content: flex-end;
+}
+.orange i{
+    color: rgb(250, 250, 250);
+    width: 40px;
+    padding: 10px;
+    border-radius:20px 0 0 0  ;
+    background-color: orange;
+}
+.contan4{
+    display: flex;
+    flex-direction: column;
+    flex:0.2;
+    margin-top: 5%;
+    
+}
+.contan4 i{
+    background-color: orange;
+}
+.contan4 h1{
+    margin-bottom: 2%;
+}
+.contan4-top{
+    display: flex;
+}
+.box-wite{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+
+}
+.box{
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: wheat;
+    
+    
+}
+.image-text{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    
+}
+.text{
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+  
+}
+span{
+    color: orange;
+}
+.icon-button{
+    display: flex;
+    margin-top: 2%;
+}
+.footer img{
+    width: 100px;
+    height: 100px;
+} 
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(119, 51, 51, 0.966);
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-center{
+    padding: 10px;
+}
+.footer-center ul{
+    display: flex;
+
+}
+.footer-center li{
+    margin: 10px;
+}
+.footer-right .input{
+    display: flex;
+}
+.footer-button{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+@media(max-width:600px){
+    body{
+        width: 100%;
+        font-size: 12px;
+        height: 100vh;
+    }
+    .header{
+        font-size: 12px;
+        justify-content:space-evenly;
+    }
+    .header-right{
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin-left: 2px;
+        font-size: 10px;
+        align-items: flex-start;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .header-right ul{
+        font-size: 8px;
+       
+    }
+    .button1 button{
+        width: 70px;
+        border-radius: 7px;
+    }
+    .logo{
+        flex: 0.5;
+    }
+    .logo img{
+        width: 60px;
+        height: 50cx;
+    }
+    .header-right ul,.header-right .button1{
+        margin-left: 5px;
+    }
+    .button1{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        padding: 10px;
+        width: 300px;
+    
+    }
+    .header {
+        font-size: 10px;
+    }
+   
+    .header.image{
+        justify-content: center;
+        align-items:  center;
+    }
+    .main{
+        flex-direction: column-reverse;
+
+    }
+    .main img{
+        width: 400px;
+    }
+    .group-text{
+        align-items: center;
+    }
+    .title-menu h4{
+        margin-left: 5%;
+    }
+    .contan1{
+        align-items: center;
+        font-size: 10px;
+    }
+    .image-two{
+        flex-direction: column;
+
+
+    }
+    .image-two h2 {
+        display: none;
+    }
+    .image1{
+        align-items: center;
+
+    }
+    .image2{
+        align-items: center;
+    }
+    .contan3 img{
+        width: 130px;
+        height: 130px;
+    }
+
+    .container{
+        flex-wrap: wrap;
+
+    }
+    .cart{
+        width: 40%;
+
+    }
+    .footer{
+        font-size: 10px;
+    }
+    .contan4-top{
+        flex-direction: column;
+    }
+    .box{
+        padding: 10px;
+        text-align: center;
+    }
+    .image-text{
+        justify-content: center;
+    }
+    .image-text img{
+        width: 400px;
+        height: 300px;
+    }
+    .contan4-top .text{
+        align-items: center;
+    }
+    .footer .footer-center{
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .footer .footer-center li{
+        list-style: none;
+        align-items: flex-start;
+        justify-content: flex-start;
+        font-size: 9px;
+        margin-left: 0px;
+    }
+    
+    .footer-right{
+        display: none;
+    }
+    .footer-left{
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-button{
+        display: none;
+    }
+    .footer-right .input{
+        display: none;
+    }
+}
